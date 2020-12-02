@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cloudcourse.Web", "cloudcourse.Web\", "{76696F65-C411-4037-832D-0ED70354C404}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9180"
+		Debug.AspNetCompiler.PhysicalPath = "cloudcourse.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9180\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9180"
+		Release.AspNetCompiler.PhysicalPath = "cloudcourse.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9180\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9180"
+		SlnRelativePath = "cloudcourse.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{A54CCD36-A466-4C00-95E4-C148F71B28FB} = {A54CCD36-A466-4C00-95E4-C148F71B28FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudcourse.Core", "cloudcourse.Core\cloudcourse.Core.csproj", "{A54CCD36-A466-4C00-95E4-C148F71B28FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76696F65-C411-4037-832D-0ED70354C404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76696F65-C411-4037-832D-0ED70354C404}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54CCD36-A466-4C00-95E4-C148F71B28FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54CCD36-A466-4C00-95E4-C148F71B28FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54CCD36-A466-4C00-95E4-C148F71B28FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54CCD36-A466-4C00-95E4-C148F71B28FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C0CD547-5FE0-4754-8B7F-34FDCCAFB98A}
+	EndGlobalSection
+EndGlobal

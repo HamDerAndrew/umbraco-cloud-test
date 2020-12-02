@@ -1,0 +1,1 @@
+git clone https://dev-fundamentals-aws-umbraco-dk.scm.s1.umbraco.io/d121851b-14ad-411d-afa6-ffd939b8076d.git cloudcourse.Web
